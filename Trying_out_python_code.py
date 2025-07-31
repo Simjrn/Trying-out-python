@@ -79,7 +79,7 @@ if page == "Welcome":
     st.markdown("To enter you answer press **ctrl+enter**, or on a phone **tap the bottom right corner** of the text input area")
     st.title("Chats")
     st.markdown("""
-    In this course, there are multiple chats. When you enter a chat lesson, type in the given starting word **in Romansh**. The bot will write its response back, and what you should write next will appear under that. **If you do not write the correct response, or miss capital letters or punctuatio (except for full stops when the english text doesn't have them), the chat will not work!.** You repeat that until you are told the chat has finished. **You only write things in Romansh in a chat lesson**. """)
+    In this course, there are multiple chats. When you enter a chat lesson, type in the given starting word **in Romansh**. The bot will write its response back, and what you should write next will appear under that. **If you do not write the correct response, or miss capital letters or punctuation (except for full stops when the english text doesn't have them), the chat will not work!** You repeat that until you are told the chat has finished. **You only write things in Romansh in a chat lesson**. """)
 
 answer = 1
 
