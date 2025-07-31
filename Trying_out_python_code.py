@@ -88,22 +88,20 @@ if page == "Chat 1":
 	    placeholder = st.empty()
 	    placeholder.progress(25)
         with st.chat_message("assistant"):
-        placeholder = st.empty()
-		placeholder.progress(50)
             st.markdown("Bun di")
         st.write("Respond with 'How are you?'")
     elif answer == "Co vai?":
-		placeholder = st.empty()
-		placeholder.progress(75)
+		    placeholder = st.empty()
+		    placeholder.progress(75)
         with st.chat_message("Assistant"):
             st.markdown("Bain grazia, e ti?")
         st.write("Respond with 'Well'")
     elif answer == "Bain":
-		placeholder = st.empty()
-		placeholder.progress(25)
+		    placeholder = st.empty()
+		    placeholder.progress(25)
         with st.chat_message("assistant"):
             st.markdown("Bun")
-        st.write("Respond with 'Goodbye'")
+            st.write("Respond with 'Goodbye'")
     elif answer == "A revair":
         with st.chat_message("assistant"):
             st.markdown("A revair!")
