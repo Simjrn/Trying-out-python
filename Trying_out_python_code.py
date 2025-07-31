@@ -36,6 +36,8 @@ if page == "Lesson 1":
                 score = score + 1    
                 Q4 = st.text_area("What is 'Good afternoon'?")
                 if Q4 == "Buna saira":
+                    placeholder = st.empty()
+                    placeholder.progress(50, "Half way there!")    
                     score = score + 1    
                     Q5 = st.text_area("What is 'Good morning'?")
                     if Q5 == "Bun di":
@@ -123,6 +125,7 @@ if page == "Lesson 2":
                 score = score + 1    
                 L2Q4 = st.text_area("What is 'Good, and you?'")
                 if L2Q4 == "Bun, e ti?":
+                    placeholder.progress(50, "Half way there!")    
                     score = score + 1    
                     L2Q5 = st.text_area("What is 'Thank you, how are you?'")
                     if L2Q5 == "Grazia, co vai?":
