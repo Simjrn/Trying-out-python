@@ -6,6 +6,62 @@ df = ""
 Q1 = ""
 score = 0
 
+progress_colour = st.sidebar.selectbox(
+    "Which colour for progress bars",
+    ["green", "blue", "orange", "red", "purple"]
+)
+
+if progress_colour == "green":
+    st.markdown(
+    """
+    <style>
+        .stProgress > div > div > div > div {
+            background-color: green;
+        }
+    </style>""",
+    unsafe_allow_html=True,
+)
+elif progress_colour == "orange":
+    st.markdown(
+    """
+    <style>
+        .stProgress > div > div > div > div {
+            background-color: orange;
+        }
+    </style>""",
+    unsafe_allow_html=True,
+)
+elif progress_colour == "red":
+    st.markdown(
+    """
+    <style>
+        .stProgress > div > div > div > div {
+            background-color: red;
+        }
+    </style>""",
+    unsafe_allow_html=True,
+)
+elif progress_colour == "purple":
+    st.markdown(
+    """
+    <style>
+        .stProgress > div > div > div > div {
+            background-color: purple;
+        }
+    </style>""",
+    unsafe_allow_html=True,
+)
+else:
+    st.markdown(
+    """
+    <style>
+        .stProgress > div > div > div > div {
+            background-color: blue;
+        }
+    </style>""",
+    unsafe_allow_html=True,
+)
+
 st.set_page_config(
     page_title="Learn Romansh! (Still in progress)", page_icon="🇨🇭", initial_sidebar_state="expanded"
 )
