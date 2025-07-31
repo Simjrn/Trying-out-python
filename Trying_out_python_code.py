@@ -6,6 +6,10 @@ df = ""
 Q1 = ""
 score = 0
 
+st.set_page_config(
+    page_title="Learn Romansh! (Still in progress)", page_icon="🇨🇭", initial_sidebar_state="expanded"
+)
+
 st.sidebar.title("Which lesson")
 st.sidebar.write("Choose which lesson you're on")
 page = st.sidebar.radio(
