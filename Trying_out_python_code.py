@@ -10,7 +10,7 @@ st.sidebar.title("Which lesson")
 st.sidebar.write("Choose which lesson you're on")
 page = st.sidebar.radio(
         "Go to",
-        ["Welcome", "Lesson 1", "Lesson 2", "Chat 1"]
+        ["Welcome", "Lesson 1", "Lesson 2", "Chat 1", "Lesson 3"]
     )
 
 if page == "Lesson 1":
@@ -136,5 +136,35 @@ if page == "Lesson 2":
                                 L2Q8 = st.text_area("What is 'Good morning, how are you?'")
                                 if L2Q8 == "Bun di, co vai?":
                                     st.balloons()
+if page == "Lesson 3":
+    if st.button("Start"):
+        df = pd.DataFrame({
+        'English': ["I am called ...", "Please", "Nice to meet you", "Yes", "No"],
+        'Romansh': ["Jau hai num ...", "Per plaschair", "Fa plaschair", "Gea", "Na"]
+        })
+
+        df
+        st.markdown("---")
+        st.markdown("---")
+        L3Q1 = st.text_area("What is 'I am called Simon' in Romansh?")
+        if L2Q1 == "Jau hai num Simon":
+            L3Q2 = st.text_area("What is 'Hello, nice to meet you' in Romansh?")
+            if L3Q2 == "Allegra, fa plaschair":
+                L3Q3 = st.text_area("What is 'Yes, please' in Romansh?")
+                if L3Q3 == "Gea, per plaschair":
+                    L3Q4 = st.text_area("What is 'No, thank you' in Romansh?")
+                    if L3Q4 == "Na, grazia":
+                        placeholder = st.empty()
+                        placeholder.progress(50, "You're half way there!")
+                        L3Q5 = st.text_area("What is 'Yes, I am called James, nice to meet you'in Romansh?")
+                        if L3Q5 == "Gea, jau hai num James, fa plaschair":
+                            L3Q6 = st.text_area("What is 'I am called Nando, and you?' in Romansh")
+                            if L3Q6 == "Jau hai num Nando, e ti?":
+                                
+                            
+                
+        
+    
+    
                                     
                     
