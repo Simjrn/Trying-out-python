@@ -4,7 +4,7 @@ import time
 
 df = ""
 Q1 = ""
-
+score = 0
 
 st.sidebar.title("Which lesson")
 st.sidebar.write("Choose which lesson you're on")
@@ -27,22 +27,30 @@ if page == "Lesson 1":
     
     Q1 = st.text_area("What is 'Hello'?")
     if Q1 == "Allegra":
+        score = score + 1
         Q2 = st.text_area("What is 'How'?")
         if Q2 == "Co":
+            score = score + 1
             Q3 = st.text_area("What is 'Hello, how?'?")
             if Q3 == "Allegra, co?":
+                score = score + 1    
                 Q4 = st.text_area("What is 'Good afternoon'?")
                 if Q4 == "Buna saira":
+                    score = score + 1    
                     Q5 = st.text_area("What is 'Good morning'?")
                     if Q5 == "Bun di":
+                        score = score + 1    
                         Q6 = st.text_area("What is 'Hello, good morning'?")
                         if Q6 == "Allegra, bun di":
+                            score = score + 1    
                             Q7 = st.text_area("What is 'Good afternoon, how?'?")
                             if Q7 == "Buna saira, co?":
+                                score = score + 1    
                                 Q8 = st.text_area("What is 'Good afternoon, good morning'?")
                                 if Q8 == "Buna saira, bun di":
-                                    st.balloons()
-
+                                    score = score + 1    
+                                    st.balloons() 
+                                        
 if page == "Welcome":
     st.title("Romansh for you")
     st.markdown("""
@@ -102,17 +110,23 @@ if page == "Lesson 2":
     df
     st.markdown("---")
     st.markdown("---")
-    
+
+    score = 0    
     L2Q1 = st.text_area("What is 'How are you?'")
-    if L2Q1 == "Co vai?":
+    if L2Q1 == "Co vai?": 
+        score = score + 1
         L2Q2 = st.text_area("What is 'Good afternoon, how are you? Well'")
         if L2Q2 == "Buna saira, co vai? Bain":
+            score = score + 1
             L2Q3 = st.text_area("What is 'Good bye, thank you'")
             if L2Q3 == "A revair, grazia":
+                score = score + 1    
                 L2Q4 = st.text_area("What is 'Good, and you?'")
                 if L2Q4 == "Bun, e ti?":
+                    score = score + 1    
                     L2Q5 = st.text_area("What is 'Thank you, how are you?'")
                     if L2Q5 == "Grazia, co vai?":
+                        score = score + 1    
                         L2Q6 = st.text_area("What is 'Well, thank you. Goodbye'")
                         if L2Q6 == "Bain, grazia. A revair":
                                 L2Q8 = st.text_area("What is 'Good morning, how are you?'")
