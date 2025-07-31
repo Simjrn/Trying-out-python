@@ -76,10 +76,10 @@ if page == "Welcome":
         st.balloons()
     st.markdown("""The questions in this course are **case sensitive**, so if nothing happens when you enter your answer check you have mirrored the punctuation in the question.""")
     
-    st.markdown("To enter you answer press **ctrl+enter**, or on a phone **tap the bottom right corner**")
+    st.markdown("To enter you answer press **ctrl+enter**, or on a phone **tap the bottom right corner** of the text input area")
     st.title("Chats")
     st.markdown("""
-    In this course, there are multiple chats. When you enter a chat lesson, type in the given starting word **in Romansh**. The bot will write its response back, and what you should write next will appear under that. **If you do not write the correct response, the chat will not work!.** You repeat that until you are told the chat has finished. **You only write things in Romansh in a chat lesson**. """)
+    In this course, there are multiple chats. When you enter a chat lesson, type in the given starting word **in Romansh**. The bot will write its response back, and what you should write next will appear under that. **If you do not write the correct response, or miss capital letters or punctuatio (except for full stops when the english text doesn't have them), the chat will not work!.** You repeat that until you are told the chat has finished. **You only write things in Romansh in a chat lesson**. """)
 
 answer = 1
 
