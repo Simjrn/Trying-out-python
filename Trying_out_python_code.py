@@ -146,20 +146,28 @@ if page == "Lesson 3":
         df
         st.markdown("---")
         st.markdown("---")
-        L3Q1 = st.text_area("What is 'I am called Simon' in Romansh?")
-        if L2Q1 == "Jau hai num Simon":
-            L3Q2 = st.text_area("What is 'Hello, nice to meet you' in Romansh?")
-            if L3Q2 == "Allegra, fa plaschair":
-                L3Q3 = st.text_area("What is 'Yes, please' in Romansh?")
-                if L3Q3 == "Gea, per plaschair":
-                    L3Q4 = st.text_area("What is 'No, thank you' in Romansh?")
-                    if L3Q4 == "Na, grazia":
-                        placeholder = st.empty()
-                        placeholder.progress(50, "You're half way there!")
-                        L3Q5 = st.text_area("What is 'Yes, I am called James, nice to meet you'in Romansh?")
-                        if L3Q5 == "Gea, jau hai num James, fa plaschair":
-                            L3Q6 = st.text_area("What is 'I am called Nando, and you?' in Romansh")
-                            if L3Q6 == "Jau hai num Nando, e ti?":
+    L3Q1 = st.text_area("What is 'I am called Simon' in Romansh?")
+    if L3Q1 == "Jau hai num Simon":
+        L3Q2 = st.text_area("What is 'Hello, nice to meet you' in Romansh?")
+        if L3Q2 == "Allegra, fa plaschair":
+            L3Q3 = st.text_area("What is 'Yes, please' in Romansh?")
+            if L3Q3 == "Gea, per plaschair":
+                L3Q4 = st.text_area("What is 'No, thank you' in Romansh?")
+                if L3Q4 == "Na, grazia":
+                    placeholder = st.empty()
+                    placeholder.progress(50, "You're half way there!")
+                    L3Q5 = st.text_area("What is 'Yes, I am called James, nice to meet you'in Romansh?")
+                    if L3Q5 == "Gea, jau hai num James, fa plaschair":
+                        L3Q6 = st.text_area("What is 'I am called Nando, and you?' in Romansh")
+                        if L3Q6 == "Jau hai num Nando, e ti?":
+                            L3Q7 = st.text_area("What is 'Good morning, nice to meet you'in Romansh")
+                            if L3Q7 == "Bun di, fa plaschair":
+                                L3Q8 = st.text_area("What is 'No, good afternoon' in Romansh?")
+                                if L3Q8 == "Na, buna saira":
+                                    st.balloons()
+                                    placeholder2 = st.empty()
+                                    placeholder2.progress(100, "**Done!**")
+                                    
                                 
                             
                 
