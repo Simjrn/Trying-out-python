@@ -125,6 +125,7 @@ if page == "Lesson 2":
                 score = score + 1    
                 L2Q4 = st.text_area("What is 'Good, and you?'")
                 if L2Q4 == "Bun, e ti?":
+                    placeholder = st.empty    
                     placeholder.progress(50, "Half way there!")    
                     score = score + 1    
                     L2Q5 = st.text_area("What is 'Thank you, how are you?'")
@@ -135,4 +136,5 @@ if page == "Lesson 2":
                                 L2Q8 = st.text_area("What is 'Good morning, how are you?'")
                                 if L2Q8 == "Bun di, co vai?":
                                     st.balloons()
+                                    
                     
