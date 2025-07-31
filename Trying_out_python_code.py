@@ -55,7 +55,7 @@ if page == "Welcome":
     st.title("Romansh for you")
     st.markdown("""
     **Romansh for you** is a :rainbow[completely free] way to learn Romansh for everyone.
-    
+    st.caption("This web app is still being made. currently the content is limited")
     The way it works is that at the beginning of every lesson there is a button like this:""")
     st.button("Start")
     st.markdown("That reveals a table like this:")
