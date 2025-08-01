@@ -1,5 +1,6 @@
 import streamlit as st
 
+
 st.page_config(page_title="Romansh grammar", page_icon="🇨🇭", layout="wide")
 
 st.markdown("""
