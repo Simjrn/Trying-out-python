@@ -9,7 +9,7 @@ score = 0
 
 progress_colour = st.sidebar.selectbox(
     "Which colour for progress bars",
-    ["green", "blue", "orange", "red", "purple", "rainbow"]
+    ["green", "blue", "orange", "red", "purple", "yellow"]
 )
 
 if progress_colour == "green":
@@ -72,16 +72,7 @@ elif progress_colour == "yellow":
     </style>""",
     unsafe_allow_html=True,
 )
-elif progress_colour == "rainbow":
-    st.markdown(
-    """
-    <style>
-        .stProgress > div > div > div > div {
-            background-color: rainbow;
-        }
-    </style>""",
-    unsafe_allow_html=True,
-)
+
 
 st.set_page_config(
     page_title="Learn Romansh! (Still in progress)", page_icon="🇨🇭", initial_sidebar_state="expanded"
