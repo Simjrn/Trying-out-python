@@ -282,4 +282,8 @@ if page == "Lesson 5":
 
         df
         st.markdown("---")
-        st.markdown("---")    
+        st.markdown("---")
+        st.write("Write the correct translation of each phrase in the text area")
+        L5 = st.text_area("You eat")
+        if L5 == "Ti comas":
+            
