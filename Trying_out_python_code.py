@@ -145,7 +145,7 @@ if page == "Chat 1":
     st.title("Chat 1")
     st.caption("You can start by saying 'hello'")
     while True :
-        if progress_on == 0
+        if progress_on == 0:
             placeholder = st.empty()
             placeholder.progress(0)
 
