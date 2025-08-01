@@ -99,7 +99,7 @@ def gender():
 Just like Spanish or Italian, Romansh is a gendered language with 2 genders. Also like other languages, a good way to distinguish masculine from femenine in most words (some don't end in either) is if it ends in an 'A' it's feminine, and if it ends in an 'O' it's masculine. Depending on the gender, you will have to use different articles and adjectives, not only including objects but also yourself, so if you were a woman, you'd say "jau sun pitschna" but if you were a man, you'd say "Jau sun pitschen".
 ''')
 def numbers():  
-st.markdown('''**NUMBERS**
+  st.markdown('''**NUMBERS**
 
 **21-99:**
 
@@ -112,7 +112,7 @@ Counting from 100 to 999 is very simple: just use this formula:
 **Amount of hundreds + e (Which means "and", and changes to "ed" before vowels) + the number from 1-99.**
 
 It is important to remember that e changes before vowels
-''')
+  ''')
   
 pg = st.navigation([this_and_that, future, present, past_tense, negation, imperative, past_participle, gender, nmbers])
 pg.run()
