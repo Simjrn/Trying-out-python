@@ -167,7 +167,7 @@ if page == "Chat 1":
     
     if answer == "Allegra":
         placeholder = st.empty()
-        placeholder.progress(0)
+        placeholder.progress(25)
         with st.chat_message("assistant"):
             st.markdown("Bun di")
         st.write("Respond with 'How are you?'")
