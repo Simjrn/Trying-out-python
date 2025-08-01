@@ -51,7 +51,7 @@ elif progress_colour == "purple":
     </style>""",
     unsafe_allow_html=True,
 )
-elsif progress_colour == "blue":
+elif progress_colour == "blue":
     st.markdown(
     """
     <style>
