@@ -255,15 +255,16 @@ if page == "Lesson 4":
                 L4 = st.text_area("What is 'You are well, and I am well' in Romansh")
                 if L4 == "Ti es bain, e jau sun bain":
                     placeholder = st.empty()
-                    placeholder.progress(50, "You half way there!")
-                            
-        
-    
-                                
-                            
-                
-        
-    
-    
-                                    
-                    
+                    placeholder.progress(50, "You're half way there!")
+                    st.markdown("**Did you know you can make questions by switching the verb and noun around?**")
+                    L4 = st.text_area("What is 'Are you well?' in romansh")
+                    if L4 == "Es ti bain?":
+                        L4 = st.text_area("What is 'Am I well? If I am, you are well' in Romansh")
+                        if L4 == "Sun jau bain? Sche jau sun, ti es bain":
+                            L4 = st.text_area("What is 'Good morning and good afternoon' in romansh")
+                            if L4 == "Bun di e buna saira":
+                                L4 = st.text("What is 'Please, I am well' in Romansh")
+                                if L4 == "Per plaschair, jau sun bain":
+                                    st.balloons()
+                                    placeholder = st.empy()
+                                    placeholder.progress(100, "**Done!**)
