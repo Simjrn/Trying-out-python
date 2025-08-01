@@ -1,7 +1,7 @@
 import streamlit as st
 
 
-set.page_config(page_title="Romansh grammar", page_icon="🇨🇭", layout="wide")
+st.set.page_config(page_title="Romansh grammar", page_icon="🇨🇭", layout="wide")
 
 st.markdown("""
 **THIS AND THAT**
