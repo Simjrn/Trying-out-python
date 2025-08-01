@@ -190,6 +190,7 @@ if page == "Chat 1":
             st.markdown("A revair!")
         st.success("You just completed your first chat!")
         st.balloons()
+        st.button("Replay chat")
 
 if page == "Lesson 2":
     if st.button("Start"):
