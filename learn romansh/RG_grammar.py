@@ -117,5 +117,5 @@ It is important to remember that e changes before vowels
 def the_course():
   st.page_link("https://tryingoutpythoncodepy-rdmrjkgfrzxejbevxlaxgc.streamlit.app/")
 
-pg = st.navigation([this_and_that, future, present, past_tense, negation, imperative, past_participle, gender, numbers, the course])
+pg = st.navigation([this_and_that, future, present, past_tense, negation, imperative, past_participle, gender, numbers, the_course])
 pg.run()
