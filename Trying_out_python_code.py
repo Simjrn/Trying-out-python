@@ -263,7 +263,7 @@ if page == "Lesson 4":
                         if L4 == "Sun jau bain? Sche jau sun, ti es bain":
                             L4 = st.text_area("What is 'Good morning and good afternoon' in romansh")
                             if L4 == "Bun di e buna saira":
-                                L4 = st.text("What is 'Please, I am well' in Romansh")
+                                L4 = st.text_area("What is 'Please, I am well' in Romansh")
                                 if L4 == "Per plaschair, jau sun bain":
                                     st.balloons()
                                     placeholder = st.empy()
