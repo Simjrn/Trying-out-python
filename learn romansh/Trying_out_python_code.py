@@ -18,6 +18,8 @@ with st.sidebar:
     </style>""",
     unsafe_allow_html=True,
 )
+     placeholder = st.empty()
+     placeholder.progress(60, "Progress bar preview")
 
 
 progress_colour = st.sidebar.selectbox(
@@ -85,6 +87,7 @@ elif progress_colour == "yellow":
     </style>""",
     unsafe_allow_html=True,
 )
+
 
 
 st.set_page_config(
