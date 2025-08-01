@@ -136,7 +136,7 @@ if page == "Welcome":
     st.title("Chats")
     st.markdown("""
     In this course, there are multiple chats. When you enter a chat lesson, type in the given starting word **in Romansh**. The bot will write its response back, and what you should write next will appear under that. **If you do not write the correct response, or miss capital letters or punctuation (except for full stops when the english text doesn't have them), the chat will not work!** You repeat that until you are told the chat has finished. **You only write things in Romansh in a chat lesson**. """)
-    st.write("Learning another language can be hard, and we suggest you check out our notes about things that are slightly different than english") 
+    st.write("Learning another language can be hard, and we suggest you check out [our notes](https://romansh-notes-el9msjjcuqzbtijzp6z6iu.streamlit.app/) about things that are slightly different than english") 
 
 answer = 1
 
