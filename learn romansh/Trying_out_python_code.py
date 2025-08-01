@@ -9,7 +9,7 @@ score = 0
 
 progress_colour = st.sidebar.selectbox(
     "Which colour for progress bars",
-    ["green", "blue", "orange", "red", "purple", "yellow", "rainbow"]
+    ["green", "blue", "orange", "red", "purple", "rainbow"]
 )
 
 if progress_colour == "green":
