@@ -13,7 +13,6 @@ progress_colour = st.sidebar.selectbox(
 )
 
 if progress_colour == "green":
-    st.toast("You chose green!")
     st.markdown(
     """
     <style>
@@ -24,7 +23,6 @@ if progress_colour == "green":
     unsafe_allow_html=True,
 )
 elif progress_colour == "orange":
-    st.toast("You chose orange!")
     st.markdown(
     """
     <style>
@@ -35,7 +33,6 @@ elif progress_colour == "orange":
     unsafe_allow_html=True,
 )
 elif progress_colour == "red":
-    st.toast("You chose red!")
     st.markdown(
     """
     <style>
@@ -46,7 +43,6 @@ elif progress_colour == "red":
     unsafe_allow_html=True,
 )
 elif progress_colour == "purple":
-    st.toast("You chose purple!")
     st.markdown(
     """
     <style>
@@ -57,7 +53,6 @@ elif progress_colour == "purple":
     unsafe_allow_html=True,
 )
 elif progress_colour == "blue":
-    st.toast("You chose blue!")
     st.markdown(
     """
     <style>
@@ -68,7 +63,6 @@ elif progress_colour == "blue":
     unsafe_allow_html=True,
 )
 elif progress_colour == "yellow":
-    st.toast("You chose yellow!")
     st.markdown(
     """
     <style>
