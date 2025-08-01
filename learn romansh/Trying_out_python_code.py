@@ -269,3 +269,17 @@ if page == "Lesson 4":
                                     st.balloons()
                                     placeholder = st.empty()
                                     placeholder.progress(100, "**Done!**")
+
+if page == "Lesson 5":
+    st.title("Verbs time!")
+    st.write("It's time we introduced one of the most important parts of a language: verbs. Unfortunately, Romansh verb conjugation can be a bit of a pest, so you'll need to go to [the notes website we mentioned in the welcome page.](https://romansh-notes-el9msjjcuqzbtijzp6z6iu.streamlit.app/)Just look at the present tense for 'I' and 'you' for now.")
+    st.write("Once you've got your head around those, let's start!")
+    if st.button("Start"):
+        df = pd.DataFrame({
+        'English': ["To eat", "To drink", "To know (a fact)", "If"],
+        'Romansh': ["Comer", "Beber", "Saber", "Conhecer"]
+        })
+
+        df
+        st.markdown("---")
+        st.markdown("---")    
