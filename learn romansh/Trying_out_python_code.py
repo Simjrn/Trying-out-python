@@ -6,6 +6,19 @@ df = ""
 Q1 = ""
 score = 0
 
+with st.sidebar:
+    on = st.toggle("Have black or plain colour for the uncompleted section of the progress bar")
+    if on:
+        st.markdown(
+    """
+    <style>
+        .stProgress > div > div > div {
+            background-color: black;
+        }
+    </style>""",
+    unsafe_allow_html=True,
+)
+
 
 progress_colour = st.sidebar.selectbox(
     "Which colour for progress bars",
