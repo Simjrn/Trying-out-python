@@ -144,16 +144,8 @@ if page == "Chat 1":
     answer = st.chat_input("")
     st.title("Chat 1")
     st.caption("You can start by saying 'hello'")
-    while True:
-        if progress_on == 0:
-            placeholder = st.empty()
-            placeholder.progress(0)
-            st.rerun()
-
+    
     if answer == "Allegra":
-        progress_on = 1
-        placeholder = st.empty()
-        placeholder.progress(25)
         with st.chat_message("assistant"):
             st.markdown("Bun di")
         st.write("Respond with 'How are you?'")
