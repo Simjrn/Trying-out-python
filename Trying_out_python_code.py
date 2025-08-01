@@ -6,6 +6,10 @@ df = ""
 Q1 = ""
 score = 0
 
+with st.sidebar:
+    if st.button("explanations"):
+        st.page_link("RG_grammar.py")
+
 progress_colour = st.sidebar.selectbox(
     "Which colour for progress bars",
     ["green", "blue", "orange", "red", "purple"]
