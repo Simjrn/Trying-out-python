@@ -267,4 +267,4 @@ if page == "Lesson 4":
                                 if L4 == "Per plaschair, jau sun bain":
                                     st.balloons()
                                     placeholder = st.empy()
-                                    placeholder.progress(100, "**Done!**)
+                                    placeholder.progress(100, "**Done!**")
