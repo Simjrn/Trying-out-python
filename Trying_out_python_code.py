@@ -140,11 +140,11 @@ if page == "Welcome":
 answer = 1
 
 if page == "Chat 1":
-    placeholder = st.empty()
-    placeholder.progress(0)
     answer = st.chat_input("")
     st.title("Chat 1")
     st.caption("You can start by saying 'hello'")
+    placeholder = st.empty()
+    placeholder.progress(0)
 
     if answer == "Allegra":
         placeholder = st.empty()
