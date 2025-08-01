@@ -8,7 +8,7 @@ score = 0
 
 progress_colour = st.sidebar.selectbox(
     "Which colour for progress bars",
-    ["green", "blue", "orange", "red", "purple"]
+    ["green", "blue", "orange", "red", "purple", "yellow"]
 )
 
 if progress_colour == "green":
@@ -51,12 +51,22 @@ elif progress_colour == "purple":
     </style>""",
     unsafe_allow_html=True,
 )
-else:
+elsif progress_colour == "blue":
     st.markdown(
     """
     <style>
         .stProgress > div > div > div > div {
             background-color: blue;
+        }
+    </style>""",
+    unsafe_allow_html=True,
+)
+elsif progress_colour == "yellow":
+    st.markdown(
+    """
+    <style>
+        .stProgress > div > div > div > div {
+            background-color: yellow;
         }
     </style>""",
     unsafe_allow_html=True,
