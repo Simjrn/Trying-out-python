@@ -7,7 +7,8 @@ Q1 = ""
 score = 0
 
 with st.sidebar:
-    on = st.toggle("Have black or plain colour for the uncompleted section of the progress bar")
+    st.title("Progress bar customisation")
+    on = st.toggle("Black or white colour for uncompleted section")
     if on:
         st.markdown(
     """
