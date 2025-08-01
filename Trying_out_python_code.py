@@ -145,7 +145,7 @@ if page == "Chat 1":
     st.caption("You can start by saying 'hello'")
     
     if answer == "Allegra":
-        placeholder = st.empty
+        placeholder = st.empty()
         placeholder.progress(25)
         with st.chat_message("assistant"):
             st.markdown("Bun di")
