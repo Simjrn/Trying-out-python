@@ -93,6 +93,9 @@ page = st.sidebar.radio(
         ["Welcome", "Lesson 1", "Lesson 2", "Chat 1", "Lesson 3", "Lesson 4", "Lesson 5"]
     )
 
+with st.sidebar:
+    st.page_link("https://tryingoutpythoncodepy-rdmrjkgfrzxejbevxlaxgc.streamlit.app/", label="Notes", icon=":book:")
+
 if page == "Lesson 1":
     if st.button("Start"):
         df = pd.DataFrame({
