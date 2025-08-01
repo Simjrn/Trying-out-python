@@ -114,5 +114,5 @@ Counting from 100 to 999 is very simple: just use this formula:
 It is important to remember that e changes before vowels
   ''')
   
-pg = st.navigation([this_and_that, future, present, past_tense, negation, imperative, past_participle, gender, nmbers])
+pg = st.navigation([this_and_that, future, present, past_tense, negation, imperative, past_participle, gender, numbers])
 pg.run()
