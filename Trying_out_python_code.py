@@ -140,17 +140,17 @@ if page == "Welcome":
 answer = 1
 
 if page == "Chat 1":
-    progress_on? = 0
+    progress_on = 0
     answer = st.chat_input("")
     st.title("Chat 1")
     st.caption("You can start by saying 'hello'")
     while True :
-        if progress_on? == 0
+        if progress_on == 0
             placeholder = st.empty()
             placeholder.progress(0)
 
     if answer == "Allegra":
-        progress_on? = 1
+        progress_on = 1
         placeholder = st.empty()
         placeholder.progress(25)
         with st.chat_message("assistant"):
