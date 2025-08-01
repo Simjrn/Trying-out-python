@@ -13,6 +13,7 @@ progress_colour = st.sidebar.selectbox(
 )
 
 if progress_colour == "green":
+    st.toast("You chose green!")
     st.markdown(
     """
     <style>
