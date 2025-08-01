@@ -6,6 +6,16 @@ df = ""
 Q1 = ""
 score = 0
 
+st.markdown(
+    """
+    <style>
+        .stProgress > div > div > div > div {
+            background-color: green;
+        }
+    </style>""",
+    unsafe_allow_html=True,
+)
+
 progress_colour = st.sidebar.selectbox(
     "Which colour for progress bars",
     ["green", "blue", "orange", "red", "purple", "yellow"]
