@@ -94,7 +94,7 @@ page = st.sidebar.radio(
     )
 
 with st.sidebar:
-    st.page_link("https://tryingoutpythoncodepy-rdmrjkgfrzxejbevxlaxgc.streamlit.app/", label="Notes", icon=":book:")
+    st.page_link("https://tryingoutpythoncodepy-rdmrjkgfrzxejbevxlaxgc.streamlit.app/", label="Notes", icon=":books:")
 
 if page == "Lesson 1":
     if st.button("Start"):
