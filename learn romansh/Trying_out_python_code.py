@@ -10,7 +10,7 @@ st.markdown(
     """
     <style>
         .stProgress > div > div > div > div {
-            background-color: green;
+            height: 20px;
         }
     </style>""",
     unsafe_allow_html=True,
