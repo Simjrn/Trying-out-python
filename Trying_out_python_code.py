@@ -144,9 +144,11 @@ if page == "Chat 1":
     answer = st.chat_input("")
     st.title("Chat 1")
     st.caption("You can start by saying 'hello'")
-    if progress_on == 0:
-        placeholder = st.empty()
-        placeholder.progress(0)
+    while True:
+        if progress_on == 0:
+            placeholder = st.empty()
+            placeholder.progress(0)
+            st.rerun()
 
     if answer == "Allegra":
         progress_on = 1
