@@ -114,8 +114,8 @@ Counting from 100 to 999 is very simple: just use this formula:
 It is important to remember that e changes before vowels
   ''')
 
-def the_course():
-  st.page_link("https://tryingoutpythoncodepy-rdmrjkgfrzxejbevxlaxgc.streamlit.app/", label="home")
+with st.sidebar:
+  st.page_link("https://tryingoutpythoncodepy-rdmrjkgfrzxejbevxlaxgc.streamlit.app/", label="The course", icon="🇨🇭")
 
 pg = st.navigation([this_and_that, future, present, past_tense, negation, imperative, past_participle, gender, numbers, the_course])
 pg.run()
