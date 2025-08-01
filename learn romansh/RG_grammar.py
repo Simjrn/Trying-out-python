@@ -1,9 +1,9 @@
 import streamlit as st
 
+def page_2():
+  st.set_page_config(page_title="Romansh grammar", page_icon="📚", layout="wide")
 
-st.set_page_config(page_title="Romansh grammar", page_icon="📚", layout="wide")
-
-st.markdown("""
+  st.markdown("""
 **THIS AND THAT**
 
 In Romansh, the words "tschel" and "tschella" are **only** used as pronouns, and are never used before another noun. The ones that are used as adjectives/specifiers are: "quest", "quests", "questa" and "questas" which are introduced later on in the course.
@@ -102,4 +102,7 @@ Counting from 100 to 999 is very simple: just use this formula:
 **Amount of hundreds + e (Which means "and", and changes to "ed" before vowels) + the number from 1-99.**
 
 It is important to remember that e changes before vowels
-""")
+  """)
+  
+pg = st.navigation(["Trying_out_python_code.py", page_2])
+pg.run()
