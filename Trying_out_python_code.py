@@ -70,7 +70,7 @@ st.sidebar.title("Which lesson")
 st.sidebar.write("Choose which lesson you're on")
 page = st.sidebar.radio(
         "Go to",
-        ["Welcome", "Lesson 1", "Lesson 2", "Chat 1", "Lesson 3"]
+        ["Welcome", "Lesson 1", "Lesson 2", "Chat 1", "Lesson 3", "Lesson 4", "Lesson 5"]
     )
 
 if page == "Lesson 1":
@@ -235,7 +235,29 @@ if page == "Lesson 3":
                                     st.balloons()
                                     placeholder2 = st.empty()
                                     placeholder2.progress(100, "**Done!**")
-                                    
+
+if page == "Lesson 4":
+    if st.button("Start"):
+        df = pd.DataFrame({
+        'English': ["I am", "You are", "And", "If"],
+        'Romansh': ["Jau sun", "Ti es", "E", "Sche"]
+        })
+
+        df
+        st.markdown("---")
+        st.markdown("---")
+    L4 = st.text_area("What is 'I am well, thank you' in Romansh")
+    if L4 == "Jau sun bain, grazia":
+        L4 = st.text_area("What is 'You are Simon, yes?' in Romansh")
+        if L4 == "Ti es Simon, gea?":
+            L4 = st.text_area("What is 'If you are well, hello' in Romansh")
+            if L4 == "Sche ti es bain, allegra":
+                L4 = st.text_area("What is 'You are well, and I am well' in Romansh")
+                if L4 == "Ti es bain, e jau sun bain":
+                    placeholder.progress(50, "You half way there!")
+                            
+        
+    
                                 
                             
                 
