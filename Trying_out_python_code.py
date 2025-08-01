@@ -266,5 +266,5 @@ if page == "Lesson 4":
                                 L4 = st.text_area("What is 'Please, I am well' in Romansh")
                                 if L4 == "Per plaschair, jau sun bain":
                                     st.balloons()
-                                    placeholder = st.empy()
+                                    placeholder = st.empty()
                                     placeholder.progress(100, "**Done!**")
