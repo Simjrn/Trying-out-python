@@ -17,9 +17,9 @@ with st.sidebar:
         }
     </style>""",
     unsafe_allow_html=True,
-)
-     placeholder = st.empty()
-     placeholder.progress(60, "Progress bar preview")
+)    
+    placeholder = st.empty()
+    placeholder.progress(60, "Progress bar preview")
 
 
 progress_colour = st.sidebar.selectbox(
