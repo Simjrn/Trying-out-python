@@ -254,6 +254,7 @@ if page == "Lesson 4":
             if L4 == "Sche ti es bain, allegra":
                 L4 = st.text_area("What is 'You are well, and I am well' in Romansh")
                 if L4 == "Ti es bain, e jau sun bain":
+                    placeholder = st.empty()
                     placeholder.progress(50, "You half way there!")
                             
         
