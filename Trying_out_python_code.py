@@ -148,6 +148,7 @@ if page == "Chat 1":
         if progress_on == 0:
             placeholder = st.empty()
             placeholder.progress(0)
+            st.rerun()
 
     if answer == "Allegra":
         progress_on = 1
