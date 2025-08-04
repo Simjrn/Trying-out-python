@@ -45,6 +45,7 @@ def present():
             ''')
 
 def past_tense():
+  st.set_page_config(page_title="Romansh notes: past", page_icon="📚", layout="wide")
   st.markdown('''**PAST TENSE**
 
 To make a verb past tense, it's a bit more complicated. These are the rules:
@@ -76,17 +77,20 @@ To make a verb past tense, it's a bit more complicated. These are the rules:
 Note that there are often exceptions to verb conjugation rules''')
 
 def negation():
+  st.set_page_config(page_title="Romansh notes: negation", page_icon="📚", layout="wide")
   st.markdown('''**NEGATION**
 
 To negate a word in romansh, you put "na" (or n'  before a vowel) before the verb and "betg" after the verb eg. "jau n'aveva betg" (I didn't have) or "el na po betg" (He can't) 
 ''')
 
 def imperative():
+  st.set_page_config(page_title="Romansh notes: imperative", page_icon="📚", layout="wide")
   st.markdown('''**IMPERATIVE**
 
 To make an order in romansh, just take away the ending (-ar, -er or -ir) and replace it with '-a''')
 
-def past_participle():             
+def past_participle():   
+  st.set_page_config(page_title="Romansh notes: past participle", page_icon="📚", layout="wide")
   st.markdown('''**PAST PARTICIPLE**
 
 To say that you have done something, you use 'to have' (or 'to be' if the verb ends in 'ir') (both conjugated correctly with the pronoun), and change the verb that you have done like this:
@@ -96,11 +100,13 @@ For example 'Jau sun partì'(I have gone away) or 'Ti has  gidà'(You have helpe
 ''')
 
 def gender():
+  st.set_page_config(page_title="Romansh notes: gender", page_icon="📚", layout="wide")
   st.markdown('''**GENDER**
 
 Just like Spanish or Italian, Romansh is a gendered language with 2 genders. Also like other languages, a good way to distinguish masculine from femenine in most words (some don't end in either) is if it ends in an 'A' it's feminine, and if it ends in an 'O' it's masculine. Depending on the gender, you will have to use different articles and adjectives, not only including objects but also yourself, so if you were a woman, you'd say "jau sun pitschna" but if you were a man, you'd say "Jau sun pitschen".
 ''')
 def numbers():  
+  st.set_page_config(page_title="Romansh notes: numbers", page_icon="📚", layout="wide")
   st.markdown('''**NUMBERS**
 
 **21-99:**
