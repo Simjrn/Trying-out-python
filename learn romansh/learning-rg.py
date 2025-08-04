@@ -104,7 +104,7 @@ page = st.sidebar.radio(
 
 with st.sidebar:
     st.page_link("https://romansh-notes-el9msjjcuqzbtijzp6z6iu.streamlit.app/numbers", label="Notes", icon="📚")
-    st.page_link("https://about-romansh-6ymsmcszjk8pty9faxrmm9.streamlit.app", label="About Romansh", icon="📚")
+    st.page_link("https://about-romansh-6ymsmcszjk8pty9faxrmm9.streamlit.app", label="About Romansh", icon="🇨🇭")
 
 if page == "Lesson 1":
     if st.button("Start"):
