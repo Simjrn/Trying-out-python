@@ -1,8 +1,8 @@
 import streamlit as st
 
 
-st.set_page_config(page_title="Romansh grammar", page_icon="📚", layout="wide")
 def this_and_that():
+  st.set_page_config(page_title="Romansh notes: this & that", page_icon="📚", layout="wide")
   st.markdown('''
   **THIS AND THAT**
 
@@ -10,6 +10,7 @@ def this_and_that():
   ''')
 
 def future():
+  st.set_page_config(page_title="Romansh notes: future", page_icon="📚", layout="wide")
   st.markdown('''**FUTURE TENSE**
 
   To make a verb in the future tense, add:
@@ -29,6 +30,7 @@ def future():
   , then "a" (or "ad" before a vowel) and put the verb after, so "I will buy" is "Jau vegn a cumprar".''')
 
 def present():
+  st.set_page_config(page_title="Romansh notes: present", page_icon="📚", layout="wide")
   st.markdown('''**PRESENT TENSE**
 
   To form the present tense in Romansh, take away the final -ir, -ar, -air or -er and add these endings:
