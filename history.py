@@ -29,5 +29,5 @@ with tab3:
     • Vallader""")
 
 with st.sidebar:
-    st.page_link("https://tryingoutpythoncodepy-rdmrjkgfrzxejbevxlaxgc.streamlit.app/", label="The course", icon="🇨🇭")
+    st.page_link("", label="The course", icon="🇨🇭")
     st.page_link("https://romansh-notes-el9msjjcuqzbtijzp6z6iu.streamlit.app/", label="Course notes", icon="📚")
