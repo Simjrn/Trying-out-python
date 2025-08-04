@@ -1,11 +1,10 @@
 import streamlit as st
 
-tab1, tab2, tab3, tab4 = st.tabs(
+tab1, tab2, tab3 = st.tabs(
     [
         "What is the Romansh language?",
         "Why is it a national language?",
         "Rumantsch Grischun",
-        "4"
     ]
 )
 with tab1:
@@ -26,5 +25,7 @@ with tab3:
     • Surmiran
     • Puter
     • Vallader""")
-with tab4:
-    st.write(4)
+
+with st.sidebar:
+    st.page_link("https://tryingoutpythoncodepy-rdmrjkgfrzxejbevxlaxgc.streamlit.app/", label="The course", icon="🇨🇭")
+    st.page_link("https://romansh-notes-el9msjjcuqzbtijzp6z6iu.streamlit.app/", label="Course notes", icon="📚")
