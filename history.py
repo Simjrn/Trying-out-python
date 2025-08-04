@@ -12,7 +12,7 @@ with tab1:
     st.markdown("""
     Romansh is a romance language spoken in grisons, in Switzerland
     
-    It's creation story is pretty much the same as all other romance languages: There are some celtic tribes, then the romans came and introduced Latin. After the roman empire falls, the germanic tribes come and the languages mix together to form new languages
+    It's creation story is pretty much the same as all other romance languages: There are some celtic tribes, then the romans came and introduced Latin. After the roman empire falls, the germanic tribes come and the languages mix together to form new languages.
     Unlike other romance languages, the Rhaeto-romance languages (of which Romansh is one) are distinct from other languages because of isolation due to geographical features and exposure to other languages.""")
 with tab2:
     st.write(2)
