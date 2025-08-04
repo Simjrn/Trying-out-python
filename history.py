@@ -17,7 +17,7 @@ with tab1:
 with tab2:
     st.markdown("""Despite less than 1% of Switzerlamd speaking Romansh, it is still a national language. But why?
 
-    There are a few things, however the main factor was that in the lead up to the 2nd world war, Hitler was saying that he wanted to get all the German speaking countries back together. The swiss people were (unsurprisingly) not very keen on this idea. To try and diffrentiate themselves from Germany, in 1938, Romansh became a national language.
+There are a few things, however the main factor was that in the lead up to the 2nd world war, Hitler was saying that he wanted to get all the German speaking countries back together. The swiss people were (unsurprisingly) not very keen on this idea. To try and diffrentiate themselves from Germany, in 1938, Romansh became a national language."")
 with tab3:
     st.write(3)
 with tab4:
