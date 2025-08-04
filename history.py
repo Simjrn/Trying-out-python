@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(page_title="About Romansh", page_icon="🇨🇭", layout="wide")
+
 tab1, tab2, tab3 = st.tabs(
     [
         "What is the Romansh language?",
