@@ -123,7 +123,7 @@ It is important to remember that e changes before vowels
   ''')
 
 with st.sidebar:
-  st.page_link("https://tryingoutpythoncodepy-rdmrjkgfrzxejbevxlaxg.streamlit.app/", label="The course", icon="🇨🇭")
+  st.page_link("https://learn-basic-romansh-rdmrjkgfrzxejbevxlaxg.streamlit.app/", label="The course", icon="🇨🇭")
   st.page_link("https://about-romansh-6ymsmcszjk8pty9faxrmm9.streamlit.app", label="About Romansh", icon="📚")
 
 pg = st.navigation([this_and_that, future, present, past_tense, negation, imperative, past_participle, gender, numbers])
