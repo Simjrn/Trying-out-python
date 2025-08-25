@@ -1,12 +1,14 @@
 import streamlit as st
 import pandas as pd
 import time
+import query as qy
 
 df = ""
 Q1 = ""
 score = 0
 
 with st.sidebar:
+    ask(hello)
     st.title("Progress bar customisation")
     on = st.toggle("Black or white colour for uncompleted section")
     if on:
