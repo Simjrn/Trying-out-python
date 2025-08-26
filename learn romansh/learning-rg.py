@@ -92,7 +92,7 @@ elif progress_colour == "yellow":
 
 
 st.set_page_config(
-    page_title="Learn Romansh! (Still in progress)", page_icon="🇨🇭", initial_sidebar_state="expanded"
+    page_title="Learn Romansh! (Still in progress)", page_icon="🇨🇭", initial_sidebar_state="expanded", menu_items={'about': 'This a language learning app for the endangered language of Romansh'})
 )
 
 st.sidebar.title("Which lesson")
